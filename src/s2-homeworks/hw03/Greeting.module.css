@@ -1,0 +1,85 @@
+.greetingForm {
+    width: 1280px;
+    height: 554px;
+    top: 967px;
+    padding: 131px 0px 51px 0px;
+}
+
+.inputAndButtonContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.input {
+    width: 372px;
+    height: 36px;
+    top: 1024px;
+    left: 70px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.input:focus {
+    color: black;
+}
+
+.errorInput {
+    color: red;
+}
+
+.button {
+    display: block;
+    width: 78px;
+    height: 36px;
+    top: 224px;
+    left: 454px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background-color: #0066CC;
+    color: #FFFFFF
+}
+
+.button:focus {
+    background-color: #00279a;
+    color: #FFFFFF
+}
+
+.button:active {
+    width: 78px;
+    height: 36px;
+    top: 224px;
+    left: 454px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background-color: #0066CC;
+    color: #FFFFFF
+}
+
+.button:disabled {
+    width: 78px;
+    height: 36px;
+    top: 224px;
+    left: 454px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    opacity: 0.5;
+    background-color: #0066CC;
+    color: #FFFFFF
+}
+
+.text {
+    color: #00000080;
+}
+
+.greeting {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}

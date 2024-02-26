@@ -1,0 +1,19 @@
+.container {
+    margin-top: 85px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 65px;
+
+}
+
+.number {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
